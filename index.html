@@ -21,9 +21,21 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-s-3 col-m-3" style="background-color: red;">NAV</div>
-      <div class="col-s-9 col-m-6" style="background-color: blue;">MAIN</div>
-      <div class="col-s-12 col-m-3" style="background-color: violet;">ASIDE</div>
+      <div class="col-s-3 col-m-3" style="background-color: red;">
+        NAV
+         <div include-html="partials/menu.html"></div>
+         
+        </div>
+        <div class="col-s-9 col-m-6" style="background-color: blue;">
+            MAIN
+            <div include-html="partials/products.html"></div>
+            
+        </div>
+        <div class="col-s-12 col-m-3" style="background-color: violet;">
+            ASIDE
+            <div include-html="partials/aside.html"></div>
+        
+    </div>
     </div>
     <footer>
       <div class="col-s-12 col-m-12" style="background-color: violet;">FOOTER</div>
@@ -118,8 +130,9 @@
   <!-- fin ejemplos plantilla diferentes formas -->
   <!-- ///////////////////////////////// -->
 
-  <!-- <div include-html="partials/footer.html"></div>
+ <!-- <div include-html="partials/footer.html"></div> -->
+ <footer>Ramón Pascual Academy</footer>
 
-  <script src="js/include-html.js"></script> -->
+  <script src="js/include-html.js"></script> 
 </body>
 </html>
